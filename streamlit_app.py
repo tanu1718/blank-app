@@ -21,3 +21,6 @@ add_selectbox = st.sidebar.selectbox(
 'How would you like to be contacted?',
 ('Email', 'Home phone', 'Mobile phone')
 )
+
+st.write("DB username:", st.secrets["DB_USERNAME"])
+st.write("DB password:", st.secrets["DB_TOKEN"])
